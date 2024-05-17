@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lumanosimo&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    height: 20vh;
+    /* background-color: deepskyblue; */
+
+
+
+}
+
+.logo {
+    background-color:aliceblue;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+
+}
+
+.navBar {
+    background-color: whitesmoke;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+
+}
+
+.l1 img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 130PX;
+    margin-left: 2%;
+
+}
+
+.LK {
+    margin-left: 10px;
+    height: 90%;
+    /* margin-bottom: 200px; */
+    margin-right: 20%;
+    width: 40%;
+
+}
+
+.navBar li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+
+
+}
+
+.navBar li {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.heroSection {
+    background-image: url(images/laptop_ultra_4k_hd_desktop_background-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.jumbotron {
+    height: auto;
+    width: 70%;
+    padding: 20px 150px 250px 100px;
+
+
+}
+
+.jumbotron p {
+    padding: 50px 0px 150px 60px;
+
+}
+
+.jumbotron p {
+    color: whitesmoke;
+
+}
+
+.jumbotron h1 {
+    font-family: "Lumanosimo", cursive;
+    font-weight: 400;
+    font-style: bold;
+    padding: 0px 0px 100px 0px;
+    color: aliceblue;
+    /* margin-right: 500px; */
+}
+
+.jumbotron p {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
